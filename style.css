@@ -1,0 +1,439 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+}
+.left-section{
+    display: flex;
+    background-color: #0f1111;
+    width: 340px;
+}
+.logo{
+    display: flex;
+    background-color: #0f1111;
+    width: 150px;
+}
+.logo img{
+    display: flex;
+    margin-left: 23px;
+    margin-top: 10px;
+    height: 60px;
+}
+.logo p{
+    font-weight: 400;
+    margin-top: 27px;
+    color: white;
+}
+
+
+
+.address{
+    display: flex;
+    color: white;
+    font-size: 14px;
+    margin-left: 25px;
+    span{
+        font-weight: 700;
+        font-size: 17px;
+    }
+}
+.address img{
+    margin-top: 26px;
+    height: 25px;
+}
+.middle-section{
+    background-color: #0f1111;
+    flex: 1;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.middle-section select{
+    height: 50px;
+    width: 60px;
+    border-radius: 3px 0px 0px 3px;
+    background-color: rgb(224, 225, 225);
+    border-color: transparent;
+}
+.placeholder::placeholder{
+    padding-left: 5px;
+    font-size: 17px;
+}
+.middle-section input{
+    height: 50px;
+    flex: 1;
+    min-width: 300px;
+    border-color: transparent;
+
+}
+.middle-section button{
+    height: 50px;
+    width: 60px;
+    border-color: transparent;
+    border-radius: 0px 3px 3px 0px;
+    background-color: rgb(255, 186, 57);
+}
+
+.right-section{
+    background-color:#0f1111 ;
+    width: 440px;
+    display: flex;
+
+
+}
+.flag{
+    height: 25px;
+    margin-top: 25px;
+    margin-left: 23px;
+}
+.en{
+    font-size: 13px;
+    font-weight: 900;
+    margin-top: 27px;
+    color: white;
+    height: 30px;
+    background-color: transparent;
+    border-color: transparent;
+
+}
+.account{
+    margin-left: 15px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    span{
+        font-size: 17px;
+        font-weight: 700;
+    }
+}
+.account select{
+    color: white;
+    width: 15px;
+    background-color: transparent;
+    border-color: transparent;
+}
+.orders{
+    margin-left: 10px;
+    color: white;
+    font-size: 14px;
+    span{
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
+.kart{
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.cart{
+    color: white;
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/*----------------------------------------------*/
+
+.second-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    background-color: rgb(49, 49, 75);
+}
+.second-header button:hover{
+    cursor: pointer;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+.left-second-header{
+    margin-left: 20px;
+    display: flex;
+    height: 36px;
+}
+.menu-img{
+    display: flex;
+    font-size: 16px;
+    span{
+        margin-top: 6px;
+        margin-left: 5px;
+    }
+}
+.left-second-header button{
+    font-weight: 500;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    border-width: 0;
+}
+.right-second-header button{
+    height: 36px;
+    border-radius: 4px;
+    color: white;
+    background-color: transparent;
+    border-width: 0;
+}
+/* content code*/
+
+.hero{
+    background-image: url(home.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgray;
+}
+.boxes a{
+    display: flex;
+    margin-top: 180px;
+    margin-left: 35px;
+    font-size: 15px;
+}
+.box{
+    margin-top: 30px;
+    justify-content: space-evenly;
+    align-items: top;
+    height: 500px;
+    width: 22%;
+    background-color: white;
+    border-radius: 10px;
+}
+.box4{
+    height: 170px;
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.row button{
+    height: 95px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    border-color: transparent;
+}
+.row button:hover{
+    border-color: transparent;
+    cursor: pointer;
+}
+.row img{
+height: 90px;
+}
+.box2 p{
+    font-weight: 700;
+    color: red;
+}
+.box3 p{
+    font-weight: 700;
+    color: red;
+}
+.box h2{
+    margin-left: 25px;
+}
+.row1{
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.boxes button{
+    border-width: px;
+    border-radius: 5px;
+    background-color: white;
+    border-color: transparent;
+}
+body button:hover{
+
+    cursor: pointer;
+}
+
+.row1 button{
+    height: 160px;
+    width: 40%;
+    margin-top: 20px;
+}
+.row1 img{
+    height: 120px;
+}
+.row2{
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.row2 button{
+    height: 160px;
+    width: 40%;
+    margin-top: 100px;
+}
+.row2 img{
+    height: 120px;
+}
+
+/* code for second row boxes */
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgray;
+}
+.prime{
+    margin-top: 30px;
+    justify-content: space-evenly;
+    align-items: top;
+    height: 400px;
+    width: 47%;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.jailer-info{
+    position: absolute;
+    top: -15px;
+}
+#jailer-head-title{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 20px;
+
+    span{
+        font-size: 17px;
+    }
+}
+#jailer-bottom-title{
+    margin-top: 200px;
+    margin-left: 20px;
+
+}
+
+
+.second-row-2nd-box{
+    margin-top: 30px;
+    justify-content: space-evenly;
+    align-items: top;
+    height: 400px;
+    width: 22%;
+    background-color: white;
+    border-radius: 10px;
+}
+.second-row-3nd-box{
+    margin-top: 30px;
+    justify-content: space-evenly;
+    align-items: top;
+    height: 400px;
+    width: 22%;
+    background-color: white;
+    border-radius: 10px;
+}
+.card1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.second-row-2nd-box img{
+    height: 100px;
+    width: 155px;
+}
+.second-row-2nd-box button{
+    margin-top: 20px;
+    border-color: transparent;
+    background-color: transparent;
+}
+.card1 p{
+    font-weight: 700;
+    color: red;
+}
+.card2 p{
+    font-weight: 700;
+    color: red;
+}
+.second-row-2nd-box h2{
+    margin-left: 18px;
+}
+.second-row-3nd-box h2{
+    margin-left:18px;
+
+}
+.card3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card4{
+    display: flex;
+    justify-content: space-evenly;
+}
+.second-row-3nd-box img{
+    height: 80px;
+    width: 130px;
+}
+.second-row-3nd-box button{
+    margin-top: 20px;
+    border-color: transparent;
+    background-color: transparent;
+}
+.back-to-top button{
+    margin-top: 50px;
+    width: 100%;
+    height: 50px;
+    background-color: #0f1111;
+    color: white;
+    font-size: 18px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #232f3e;
+    color: white;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: transparent;
+    border-bottom-color: rgba(255, 255, 255, 0.244);
+    padding-bottom: 50px;
+}
+.second-last{
+    background-color: #232f3e;
+    height: 160px;
+    padding-top: 30px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+}
+.first img{
+    height: 45px;
+}
+.first select{
+    margin-left: 150px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    border-radius: 2px;
+    height: 35px;
+    width: 120px;
+    background-color: #232f3e;
+}
+.second{
+    text-align: center;
+    display: flex;
+    color: white;
+    font-size: 12px;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 250px;
+    
+}
